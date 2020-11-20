@@ -63,7 +63,7 @@ Generate ECPairPriv value that is needed for signing signatures
 const ecpairPriv = hschain.getECPairPriv(mnemonic);
 ```
 
-Transfer ATOM to designated address. 
+Transfer HST to designated address. 
 * Make sure to input proper type, account number, and sequence of the cosmos account to generate StdSignMsg. You can get those account information on blockchain 
 * Above 0.5.0 version, Hschainjs follows the exact same json format as Cosmos SDK defines.
 ```js
