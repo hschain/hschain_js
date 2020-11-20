@@ -53,7 +53,7 @@ const chainId = "hst01";
 const hschain = hschainjs.network(lcdUrl, chainId);
 
 const mnemonic = "..."
-hschain.setPath("m/44'/118'/0'/0/0");
+hschain.setPath("m/44'/532'/0'/0/0");
 const address = hschain.getAddress(mnemonic);
 const ecpairPriv = hschain.getECPairPriv(mnemonic);
 ```
