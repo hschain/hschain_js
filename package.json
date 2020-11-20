@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cosmostation/hschainjs.git"
+    "url": "git+https://github.com/hschain/hschain_js.git"
   },
   "engines": {
     "node": ">=8.0.0"
